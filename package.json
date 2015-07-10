@@ -1,0 +1,14 @@
+{
+  "name": "destos.com",
+  "version": "1.0.0",
+  "description": "Static root site for destos.com",
+  "scripts": {
+    "start": "NODE_ENV=production harp server -p $PORT",
+    "dev": "harp server"
+  },
+  "author": "Patrick Forringer",
+  "license": "MIT",
+  "dependencies": {
+    "harp": "^0.17.0"
+  }
+}
