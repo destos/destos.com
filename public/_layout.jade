@@ -8,11 +8,18 @@ html
     meta(name="apple-mobile-web-app-capable", content="yes")
     link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css")
     link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css")
+    link(rel="stylesheet", href="main.css")
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans')
   body
+    nav.navbar.navbar-default.navbar-static-top
+      .container
+        .navbar-header
+          a.navbar-brand(href="/") Pat's things
+        ul.nav.navbar-nav
+          li
+            a(href="/cool-things/") Cool Things
     .container
-      .row
-        .col-lg-12
-          != yield
+      != yield
     footer#footer
       .container
         .row

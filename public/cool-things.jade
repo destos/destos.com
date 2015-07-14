@@ -1,0 +1,7 @@
+h2.page-header Cool Things
+
+.row
+  .col-md-6.col-md-offset-3
+    .list-group
+      for thing in public._data.cool_things
+        a.list-group-item(href="#{thing.link}", target="_blank") #{thing.title}

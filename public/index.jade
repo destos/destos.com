@@ -1,11 +1,24 @@
-.text-center
-  h1 Pat's things
-  |             
-  p.lead 
-  |             
-  ul.list-unstyled
-    li 
-      a(href="//birdo.destos.com") Birdo - a code for tulsa project
-    |                 
-    li 
-      a(href="//github.com/destos") my github
+.row
+  .col-md-6
+    h2.page-header Software Projects
+
+    .list-group
+      a.list-group-item(href="//github.com/codefortulsa/birdo") Birdo - a code for tulsa project
+        | 
+        span.label.label-warning react.js
+        | 
+        span.label.label-info django
+        
+    h2 Hardware Projects
+    
+    .list-group
+      a.list-group-item(href="//github.com/destos/night-light") Arduino night light
+        | 
+        span.label.label-default arduino
+    
+  .col-md-6
+    h2.page-header Online
+    
+    .list-group
+      a.list-group-item(href="//github.com/destos") github
+      a.list-group-item(href="//twitter.com/destos") twitter
