@@ -2,7 +2,23 @@
   "cool_things": [
     {
       "title": "1D dungeon crawler, neopixel project",
-      "link": "http://aipanic.com/projects/wobbler"
+      "link": "//aipanic.com/projects/wobbler"
     }
-  ]
+  ],
+  "projects": [
+    {
+      "title": "Birdo - a code for tulsa project",
+      "link": "//github.com/codefortulsa/birdo",
+      "tags": ["react.js", "django"]
+    }, {
+      "title": "Arduino night light",
+      "link": "//github.com/destos/night-light",
+      "tags": ["arduino"]
+    }
+  ],
+  "tags": {
+    "react.js": "warning",
+    "arduino": "default",
+    "django": "info"
+  }
 }

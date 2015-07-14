@@ -1,24 +1,19 @@
 .row
   .col-md-6
-    h2.page-header Software Projects
+    h2.page-header Projects
 
     .list-group
-      a.list-group-item(href="//github.com/codefortulsa/birdo") Birdo - a code for tulsa project
-        | 
-        span.label.label-warning react.js
-        | 
-        span.label.label-info django
-        
-    h2 Hardware Projects
-    
-    .list-group
-      a.list-group-item(href="//github.com/destos/night-light") Arduino night light
-        | 
-        span.label.label-default arduino
-    
+      for project in public._data.projects
+        a.list-group-item(href="#{project.link}", target="_blank") #{project.title}
+          | 
+          for tag in project.tags
+            span(class="label label-#{public._data.tags[tag]}") #{tag}
+            | 
+  
   .col-md-6
     h2.page-header Online
     
     .list-group
       a.list-group-item(href="//github.com/destos") github
       a.list-group-item(href="//twitter.com/destos") twitter
+      a.list-group-item(href="//www.thingiverse.com/destos/designs") thingiverse
