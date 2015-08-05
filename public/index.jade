@@ -1,4 +1,10 @@
 .row
+  .col-md-12.text-center
+    h1.page-title
+      | Destos
+      small  === 
+      | Patrick Forringer
+.row
   .col-md-6
     h2.page-header Projects
 
@@ -9,10 +15,10 @@
           for tag in project.tags
             span(class="label label-#{public._data.tags[tag]}") #{tag}
             | 
-  
+
   .col-md-6
     h2.page-header Online
-    
+
     .list-group
       a.list-group-item(href="//github.com/destos") github
       a.list-group-item(href="//twitter.com/destos") twitter
