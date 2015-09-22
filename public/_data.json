@@ -7,18 +7,24 @@
   ],
   "projects": [
     {
+      "title": "TulsaWebDevs.org re-development",
+      "link": "//github.com/tulsawebdevs/tulsawebdevs.org",
+      "tags": ["django", "postgres", "postgis"]
+    }, {
       "title": "Birdo - a code for tulsa project",
       "link": "//github.com/codefortulsa/birdo",
-      "tags": ["react.js", "django"]
+      "tags": ["react.js", "django", "postgres", "postgis"]
     }, {
       "title": "Arduino night light",
       "link": "//github.com/destos/night-light",
-      "tags": ["arduino"]
+      "tags": ["arduino", "hardware"]
     }
   ],
   "tags": {
     "react.js": "warning",
     "arduino": "default",
-    "django": "info"
+    "django": "info",
+    "postgres": "info",
+    "postgis": "info"
   }
 }
