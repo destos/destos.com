@@ -7,6 +7,10 @@
   ],
   "projects": [
     {
+      "title": "Good to Fly - Weather forcasting for R/C aircraft",
+      "link": "//github.com/destos/good-to-fly",
+      "tags": ["node.js"]
+    }, {
       "title": "TulsaWebDevs.org re-development",
       "link": "//github.com/tulsawebdevs/tulsawebdevs.org",
       "tags": ["django", "postgres", "postgis"]
@@ -22,6 +26,7 @@
   ],
   "tags": {
     "react.js": "warning",
+    "node.js": "warning",
     "arduino": "default",
     "django": "info",
     "postgres": "info",
